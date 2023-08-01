@@ -5,7 +5,7 @@ from fabric.api import *
 import os
 do_pack = __import__('1-pack_web_static').do_pack
 
-env.hosts = ['54.157.144.57', '3.85.148.165']
+env.hosts = ['54.197.73.191', '54.88.117.118']
 
 
 def deploy():

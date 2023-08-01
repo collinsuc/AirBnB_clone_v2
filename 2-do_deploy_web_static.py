@@ -5,7 +5,7 @@ import os.path
 from fabric.api import *
 from fabric.operations import run, put, sudo
 
-env.hosts = ['54.157.144.57', '3.85.148.165']
+env.hosts = ['54.197.73.191', '54.88.117.118']
 env.user = 'ubuntu'
 env.key_filename = '~/.ssh/alx_server'
 
